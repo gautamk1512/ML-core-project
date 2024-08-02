@@ -18,7 +18,7 @@ from django.core.files.storage import FileSystemStorage
 from tensorflow import keras
 from tensorflow.keras import layers
 from tensorflow.keras.models import Sequential
-from sklearn.model_selection import train_test_split
+# from sklearn.model_selection import train_test_split
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.layers import BatchNormalization
 class CustomBatchNormalization(BatchNormalization):
